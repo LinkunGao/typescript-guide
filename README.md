@@ -41,6 +41,23 @@ Show the learning process about typescript
     // npm: is used to install packages for frontend development, it will be automatically installed through installing Node.js.
     // i (install): is an abbreviation for install.
     // -g (--global): Global identification, that means we can use this toolkit in every project.
-    ②
-    ③
   ```
+
+#### Create first TS project
+
+- Steps:
+  - 1. Create ts file:
+    ```
+            ① Create your project repository on Github.
+            ② Use git clone your repository on your desktop, and open it in your IDE (Vscode).
+            ③ Create your first TS file in your IDE: index.ts (Notice: Suffix name must be .ts).
+    ```
+    - 2. Write your code in index.ts file, and save it.
+    ```
+            console.log('Hello TS')
+    ```
+    - 3. Execute the code
+    ```
+            ① TS -> JS: In the terminal under the ts file folder, and execute the command: tsc index.ts. This command will automatically generate a js file.
+            ② Execute js file: node index.js.
+    ```
