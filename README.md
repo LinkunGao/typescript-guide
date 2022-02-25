@@ -11,22 +11,30 @@ Show the learning process about typescript
 
   &nbsp;
   The runtime environments for JavaScript: 1. browers 2. node.js.
+
   Node.js breaks down the broswer limitations with JavaScript, to achieve the serve side and client side programming.
+
   &nbsp;
   Overall: the JavaScript can run in frontend/backend, not only in browser but also in Node.js.
+
   &nbsp;
 
 - What is TypeScript
   TypeScript (TS) is a superset of JavaScript.
   TypeScript = <font color="660000">Type</font> + JavaScript (add type system for JS)
+
   ```
     // TypeScript code: it has clear type for each variable, e.g., number (Number type)
     let age: number = 18
     // JavaScript code: without clear type for variables
     let age = 18
   ```
-  TypeScript is an open-source programming language developed by MicroSoft, and the aim is to develop large appliactions. Moreover, it can be runned in every browsers, computers, and operating systems.
+
+  TypeScript is an open-source programming language developed by MicroSoft, and the aim is to develop large appliactions.
+  Moreover, it can be runned in every browsers, computers, and operating systems.
+
   &nbsp;
+
 - What are TypeScript advantages compare to JavaScript
   1. To avoid type errors.
   2. Typology thinking. Make development more rigorous. It can find the error in advance, and reduce time to fix bug.
@@ -79,6 +87,7 @@ Show the learning process about typescript
 #### Make comments for ts
 
 Comments are an explanation of code for other programmers easier to read and understand the code.
+
 Notice: Comments will not be executed.
 
 ```
