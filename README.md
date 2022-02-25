@@ -72,3 +72,23 @@ Show the learning process about typescript
              ① npm i ts-node -g
              ② use this command in terminal: ts-node index.js
   ```
+
+#### Make comments for ts
+
+Comments are an explanation of code for other programmers easier to read and understand the code.
+Notice: Comments will not be executed.
+
+```
+One-line comment:
+    // Two diagonal lines indicated a on-line comment
+    // this is second line comment
+    // Shortcut key: command + / (Mac) or ctrl + / (Window)
+
+Multi-line comment:
+    /*
+        This is multi-line comment.
+        Shortcut key: shift + option + a (Mac) or shift + alt + a (Window)
+    */
+
+ts-tips:
+```
