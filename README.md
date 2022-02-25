@@ -212,3 +212,47 @@ It is a method for adding type constraints for variables.
   ```
 
 - Object type (complex data type)
+
+#### Breakpoint debugging in VSCode
+
+- Step 1: prepare a ts file for debug
+
+```
+        console.log('1 execute a for loop for debug')
+        for(let i: number = 1; i <= 3; i++){
+            console.log('debug: '+i);
+        }
+        console.log('2 finished')
+```
+
+- Step 2: add configuration for debugging
+  1. open debug panel, click debug botton on VSCode left panel.
+  2. generate default configuration: click debug dropdown box, and select add config.
+  3. update below configurations:
+  ```
+      {
+            // use IntelliSense to learn relevent attributes
+            // hover to view the description of an existing property
+            // learn more, see: https://go.microsoft.com/fwlink/?linkid=830387
+            "version": "0.2.0",
+            "configurations": [
+                {
+                    "type": "node",
+                    "request": "launch",
+                    "name": "debug ts code",
+                    // ts-node command: "directly execute ts code"
+                    "runtimeArgs" : ["-r", "ts-node/register"],
+                    // here add ts file that you want to debug, current use 03_debug_test.ts file
+                    "args" : ["${workspaceFolder}/02_variables/03_debug_test.ts"]
+                }
+            ]
+      }
+  ```
+- Step 3: Install relevent package for debugging
+  1. open terminal in current folder
+  2. type below commands:
+  ```
+      npm i ts-node typescript
+  ```
+- Step 4: In VSCode left panel click debug, then start debugs.
+  Also, you can add variable on watch panel in debug panel on the left.
