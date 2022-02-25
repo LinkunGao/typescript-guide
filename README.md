@@ -104,3 +104,25 @@ Multi-line comment:
 
 ts-tips:
 ```
+
+### Variables and Data Types of TS
+
+#### Variable
+
+In general, it is a container for storing data, and it is changeable.
+
+##### How to use variable in TS
+
+- Basic usage:
+  1. Declearing variables and specifying types.
+  ```
+      let age: number;
+  ```
+  2. Assigning values to variables.
+  ```
+    age = 18;
+  ```
+  3. Simplify add value to variable
+  ```
+    let age: number = 19;
+  ```
