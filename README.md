@@ -104,3 +104,111 @@ Multi-line comment:
 
 ts-tips:
 ```
+
+### B. Variables and Data Types of TS
+
+#### Variable
+
+In general, it is a container for storing data, and it is changeable.
+
+##### How to use variable in TS
+
+- Basic usage:
+  1. Declearing variables and specifying types.
+  ```
+      let age: number;
+  ```
+  2. Assigning values to variables.
+  ```
+    age = 18;
+  ```
+  3. Simplify add value to variable
+  ```
+    let age: number = 19;
+  ```
+
+##### Type annotations
+
+It is a method for adding type constraints for variables.
+
+```
+    // the variable "age" type is number (int)
+    let age: number = 19;
+```
+
+<font color="dd0000">Notice: what type is specified is the only typeof value that can be assigned to the variable. </font>
+
+##### The rules of variable name
+
+1. <font color="dd00dd">Variable name only can include:</font> figures, letters, underscores, $, and cannot start with a figure.
+2. Variable names are case-sensitive.
+
+```
+    // the "age" and "Age" are different variables
+    let age: number = 19;
+    let Age: number = 20;
+```
+
+3. Variable names should be <font color="dd0000">meaningful</font> , as the name implies.
+
+```
+    let age: number = 19; // good
+    let a: number = 20;  // bad
+```
+
+4. Use Camel-Case rule (First letter lowercase, and first letter of each subswquent word capitalised).
+
+```
+    // Camel-Case
+    let cityName: string = "auckland";
+```
+
+##### Data type in TS
+
+- Original type (atomic data type)
+  Common atomic data types include: <font color="dd0000">number / string / boolean</font> / undefined / null
+
+  1. number type: it includes int and float figures.
+
+  ```
+    // int
+    let size: number = 18;
+    // float
+    let size: number = 99.9
+
+    // positive integers, the + can be omitted directly.
+    let salary: number = +10000;
+    // nagative integers, must use -.
+    let withdraw: number = -100;
+  ```
+
+  2. string type: a string consisting of zero or more strings used to represent text infomation.
+     Strings can be enclosed in single or double inverted commas. <font color="df0f0e">Recommend to use single inverted commas.</font>
+
+  ```
+    let cityName: string = 'auckland'; // recommended
+    let cityName: string = "auckland";
+  ```
+
+  3. boolean: used to represent true or false.
+
+  ```
+  let isPlayingGame: boolean = true;
+  let isEatingDiner: boolean = false;
+  ```
+
+  4. undefined/null: only have one value, the value is itself.
+
+  ```
+  The value of undefined type: undefind
+  The value of null type: null
+
+  let u: undefined = undefined
+  let n: null = null
+
+  undefined: used to indicate the value of a variable decleared but not assigned (value not found).
+  null: used to indicate the value of a variable decleared and assigned value
+  of null(it can be found, the value is null).
+  ```
+
+- Object type (complex data type)
