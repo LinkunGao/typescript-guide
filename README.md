@@ -38,6 +38,9 @@ Show the learning process about typescript
   Steps:
   ```
     ① run npm i typescript -g  // typescript: it is a tookit for prasing TS. And it provides tsc command, achieved convert TS to JS.
+    // npm: is used to install packages for frontend development, it will be automatically installed through installing Node.js.
+    // i (install): is an abbreviation for install.
+    // -g (--global): Global identification, that means we can use this toolkit in every project.
     ②
     ③
   ```
