@@ -197,4 +197,18 @@ It is a method for adding type constraints for variables.
   let isEatingDiner: boolean = false;
   ```
 
+  4. undefined/null: only have one value, the value is itself.
+
+  ```
+  The value of undefined type: undefind
+  The value of null type: null
+
+  let u: undefined = undefined
+  let n: null = null
+
+  undefined: used to indicate the value of a variable decleared but not assigned (value not found).
+  null: used to indicate the value of a variable decleared and assigned value
+  of null(it can be found, the value is null).
+  ```
+
 - Object type (complex data type)
