@@ -105,7 +105,7 @@ Multi-line comment:
 ts-tips:
 ```
 
-### Variables and Data Types of TS
+### B. Variables and Data Types of TS
 
 #### Variable
 
@@ -126,3 +126,39 @@ In general, it is a container for storing data, and it is changeable.
   ```
     let age: number = 19;
   ```
+
+##### Type annotations
+
+It is a method for adding type constraints for variables.
+
+```
+    // the variable "age" type is number (int)
+    let age: number = 19;
+```
+
+<font color="dd0000">Notice: what type is specified is the only typeof value that can be assigned to the variable. </font>
+
+##### The rules of variable name
+
+1. <font color="dd00dd">Variable name only can include:</font> figures, letters, underscores, $, and cannot start with a figure.
+2. Variable names are case-sensitive.
+
+```
+    // the "age" and "Age" are different variables
+    let age: number = 19;
+    let Age: number = 20;
+```
+
+3. Variable names should be <font color="dd0000">meaningful</font> , as the name implies.
+
+```
+    let age: number = 19; // good
+    let a: number = 20;  // bad
+```
+
+4. Use Camel-Case rule (First letter lowercase, and first letter of each subswquent word capitalised).
+
+```
+    // Camel-Case
+    let cityName: string = "auckland";
+```
