@@ -61,3 +61,14 @@ Show the learning process about typescript
             ① TS -> JS: In the terminal under the ts file folder, and execute the command: tsc index.ts. This command will automatically generate a js file.
             ② Execute js file: node index.js.
     ```
+- Simplify execute ts steps:
+  ```
+          Two steps for execute TS code in general:
+          1. tec index.ts
+          2. node index.js
+  ```
+  Use <font color="660066">ts-node</font> package, to "directly" execute ts code.
+  ```
+             ① npm i ts-node -g
+             ② use this command in terminal: ts-node index.js
+  ```
