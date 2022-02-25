@@ -162,3 +162,39 @@ It is a method for adding type constraints for variables.
     // Camel-Case
     let cityName: string = "auckland";
 ```
+
+##### Data type in TS
+
+- Original type (atomic data type)
+  Common atomic data types include: <font color="dd0000">number / string / boolean</font> / undefined / null
+
+  1. number type: it includes int and float figures.
+
+  ```
+    // int
+    let size: number = 18;
+    // float
+    let size: number = 99.9
+
+    // positive integers, the + can be omitted directly.
+    let salary: number = +10000;
+    // nagative integers, must use -.
+    let withdraw: number = -100;
+  ```
+
+  2. string type: a string consisting of zero or more strings used to represent text infomation.
+     Strings can be enclosed in single or double inverted commas. <font color="df0f0e">Recommend to use single inverted commas.</font>
+
+  ```
+    let cityName: string = 'auckland'; // recommended
+    let cityName: string = "auckland";
+  ```
+
+  3. boolean: used to represent true or false.
+
+  ```
+  let isPlayingGame: boolean = true;
+  let isEatingDiner: boolean = false;
+  ```
+
+- Object type (complex data type)
