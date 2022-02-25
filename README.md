@@ -6,13 +6,16 @@ Show the learning process about typescript
 
 - What is JavaScript
   JavaScript (JS) is a programming language which runs on the client side (browser).
+
   When this language applied in browser, it will provide dynamic interaction feature for website, to make "animation" for website.
+
   &nbsp;
   The runtime environments for JavaScript: 1. browers 2. node.js.
   Node.js breaks down the broswer limitations with JavaScript, to achieve the serve side and client side programming.
   &nbsp;
   Overall: the JavaScript can run in frontend/backend, not only in browser but also in Node.js.
   &nbsp;
+
 - What is TypeScript
   TypeScript (TS) is a superset of JavaScript.
   TypeScript = <font color="660000">Type</font> + JavaScript (add type system for JS)
