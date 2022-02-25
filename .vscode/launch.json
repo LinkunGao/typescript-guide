@@ -1,0 +1,17 @@
+{
+  // use IntelliSense to learn relevent attributes
+  // hover to view the description of an existing property
+  // learn more, see: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "debug ts code",
+      // ts-node command: "directly execute ts code"
+      "runtimeArgs": ["-r", "ts-node/register"],
+      // here add ts file that you want to debug, current use 03_debug_test.ts file
+      "args": ["${workspaceFolder}/02_variables/03_debug_test.ts"]
+    }
+  ]
+}
