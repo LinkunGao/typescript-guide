@@ -256,3 +256,20 @@ It is a method for adding type constraints for variables.
   ```
 - Step 4: In VSCode left panel click debug, then start debugs.
   Also, you can add variable on watch panel in debug panel on the left.
+
+#### Array
+
+- Snytax 1 (recommond):
+
+```
+    let names: string[] = []
+    // [] indicates array.
+```
+
+- Snytax 2
+
+```
+    let names: string[] = new Array()
+```
+
+#### Object
