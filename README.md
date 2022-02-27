@@ -320,3 +320,15 @@ A collection of related properties and methods, and is unordered.
         age: 18
     }
 ```
+
+- Add dynamic attributes in Ts
+
+```
+    let p_3: any = {
+                name: "coco",
+                };
+
+    p_3.sex = "male";
+```
+
+- forEach
