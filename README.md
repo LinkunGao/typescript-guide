@@ -330,3 +330,5 @@ A collection of related properties and methods, and is unordered.
 
     p_3.sex = "male";
 ```
+
+- forEach
