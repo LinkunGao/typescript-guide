@@ -273,3 +273,50 @@ It is a method for adding type constraints for variables.
 ```
 
 #### Object
+
+A collection of related properties and methods, and is unordered.
+
+- Type annotation of object
+
+```
+    // interface
+    let person:{
+        name:string;
+        age: number;
+    }
+    person = {
+        name: "coco",
+        age: "3"
+    }
+```
+
+- Type annotation of object method
+
+```
+
+    let p1: {
+        name: string;
+        sayHi: () => void;
+    }
+
+    let p2: {
+        sing: (name: string) => void;
+    }
+
+    let p3: {
+        sum: (num1: number, num2: number) => number;
+    }
+```
+
+- Interface
+
+```
+    interface IUser {
+        name: string;
+        age:number;
+    }
+    let p1: IUser = {
+        name: 'Jack',
+        age: 18
+    }
+```
