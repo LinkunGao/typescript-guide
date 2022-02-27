@@ -18,3 +18,12 @@ let p_2: Person = {
     console.log("haha");
   },
 };
+
+let p_3: any = {
+  name: "coco",
+};
+
+p_3.sex = "male";
+
+console.log(p_1);
+console.log(p_3);
