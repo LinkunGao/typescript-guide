@@ -332,3 +332,41 @@ A collection of related properties and methods, and is unordered.
 ```
 
 - forEach
+
+```
+    let songs: string[] = ["a", "b", "c"]
+
+    // use for loop
+    for (let i: number = 0; i< songs.length; i++){
+        console.log("The song: " + songs[i])
+    }
+
+    // use forEach
+    songs.forEach((item, index)=>{
+         console.log("The song: " + item)
+    })
+```
+
+#### Supplement:
+
+In TS, there may be somewhere on declear the type for variable, the type inference will help provide the type.
+
+That means: Where we can omit to write comments, we omit to write them. This is to improve our development efficiency.
+
+```
+  let age: number = 18   ===> let age = 18
+  function sum(num1: number, num2: number):number {return num1 + num2}
+  ====>
+  function sum(num1: number, num2: number){return num1 + num2}
+```
+
+### HTML
+
+- Shortcuts:
+
+```
+! + tab // quickly build html
+button + tab // quickly create any tag
+img + tab  ====> quickly build <img src="" alt="" />
+ul>li{i}*6 // quickly create lis
+```
