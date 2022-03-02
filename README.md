@@ -387,3 +387,19 @@ Steps:
 ```
     <script src="./index.js"></script>
 ```
+
+- auto run tsc command
+
+  - solution: use tsc command <font coloe="#666600">monitoring mode</font>
+
+  ```
+    tsc --watch index.ts
+
+    // --watch indicates enabled monitoring mode, when user resaved ts file, it will automatically call tsc command to convert ts to js.
+  ```
+
+#### How to fix vscode report ts error, when it convert ts to js
+
+- Create a empty file tsconfig.json in root
+- see screendhot below: search validate
+  ![setup ts](screenshots/01_ts_setup.jpg)
