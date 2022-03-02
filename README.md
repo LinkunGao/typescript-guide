@@ -403,3 +403,11 @@ Steps:
 - Create a empty file tsconfig.json in root
 - see screendhot below: search validate
   ![setup ts](screenshots/01_ts_setup.jpg)
+
+#### New skills in js/ts
+
+- Directly edit website/html title in js/ts
+
+```
+    document.title = "ts-learn"
+```
