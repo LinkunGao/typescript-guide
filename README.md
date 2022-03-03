@@ -411,3 +411,20 @@ Steps:
 ```
     document.title = "ts-learn"
 ```
+
+#### select element
+
+- It is good to use document.querySelector(selector), it only select one element, so we need use id.
+  ```bash
+      document.querySelector("#id")
+  ```
+
+#### Type of assertion
+
+- Make the element type more clear, so that it can access its own attributes.
+
+```bash
+    // use as
+    let img = document.querySelector('#image') as HTMLImageElement;
+    img.src = "/1.jpg";
+```
