@@ -411,3 +411,23 @@ Steps:
 ```
     document.title = "ts-learn"
 ```
+
+#### select element
+
+- It is good to use document.querySelector(selector), it only select one element, so we need use id.
+  ```bash
+      document.querySelector("#id")
+  ```
+
+#### Type of assertion
+
+- Make the element type more clear, so that it can access its own attributes.
+
+```bash
+    // use as
+    let img = document.querySelector('#image') as HTMLImageElement;
+    console.dir(img);
+    img.src = "/1.jpg";
+```
+
+- use console.dir() to print DOM element, and see the last attribute, then you will see the element's type
