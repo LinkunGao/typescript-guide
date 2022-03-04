@@ -431,3 +431,17 @@ Steps:
 ```
 
 - use console.dir() to print DOM element, and see the last attribute, then you will see the element's type
+
+#### Description of event handlers in the form of function declarations
+
+- Function declarations are defined anywhere in the current ts file
+  ```
+      btn.addEventListener('click', handleClick)
+      function handleClick(){}
+  ```
+- In event handlers in the form of function declarations, the parameter type should be specified when using an event object.
+
+```bash
+    btn.addEventListener('click', handleClick)
+    function handleClick(event:MouseEvent){}
+```
